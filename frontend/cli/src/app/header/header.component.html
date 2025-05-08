@@ -1,0 +1,24 @@
+<div class="header-container">
+    <div class="logo">
+      <a [routerLink]="['/']">
+        <span class="logo-text">Gorpbal S.R.L.</span>
+      </a>
+    </div>
+    <div class="nav-links">
+      <ul class="menu">
+        <li class="menu-item">
+          <a [routerLink]="['/']" routerLinkActive="active">Inicio</a>
+        </li>
+        <li class="menu-item has-submenu">
+          <a [routerLink]="['/clientes']" routerLinkActive="active">Clientes</a>
+          <ul class="submenu">
+            <li><a [routerLink]="['/clientes']">Listar</a></li>
+            <li><a [routerLink]="['/clientes/new']">Nuevo</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="user-actions">
+      <p>Aca > poner > los > links > de > usuario</p>
+    </div>
+  </div>
